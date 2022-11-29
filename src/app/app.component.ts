@@ -7,4 +7,5 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'Dileep_Angular_Profile';
+  longText = 'Let u know';
 }

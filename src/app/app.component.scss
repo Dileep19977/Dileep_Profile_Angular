@@ -1,0 +1,23 @@
+
+$disply: flex;
+$primary-color: rgb(249, 247, 247);
+%overflw {
+    overflow: auto;
+  }
+  html{
+    max-height: calc(100% - 15px);
+    @extend %overflw;
+}
+body{
+    
+    @extend %overflw;
+    background-color: $primary-color;
+div{
+     margin: 10px;
+     mat-accordion{
+        margin-bottom: 5px;
+    }
+    }
+h1 {
+    text-align: center;
+}}
